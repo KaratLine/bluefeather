@@ -1,0 +1,57 @@
+
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body{
+    margin: 0;
+    background-color:#2D2D2D;
+}
+
+:root {
+  --font-family: "Raleway", sans-serif;
+  --second-family: "Forum", sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.h2-text {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  color: #fff;
+  margin: 0;
+}
+
+.h1-text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
